@@ -12,5 +12,8 @@
     "Oracle"
   ],
   "author": "Grazac (Alao Abiodun AbdulRahman)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
