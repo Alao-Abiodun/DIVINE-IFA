@@ -4,7 +4,9 @@
   "description": "A Divine-Ifa application used to check about someone future",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js --exec babel-node",
+    "start": "node ./src/app.js"
   },
   "keywords": [
     "Divine",
@@ -14,6 +16,16 @@
   "author": "Grazac (Alao Abiodun AbdulRahman)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "nodemon": "^2.0.7"
   }
 }
